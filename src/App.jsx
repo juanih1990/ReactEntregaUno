@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import HeaderContainer from './container/Header/HeaderContainer'
-import NavBar from './container/NavBar/NavBar'
+import Header from './component/Header/Header'
+import NavBar from './component/NavBar/NavBar'
 
 
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-        <HeaderContainer/>
+        <Header/>
         <NavBar/>
       </div>
   

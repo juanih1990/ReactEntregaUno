@@ -1,8 +1,8 @@
 import reactLogo from "../../assets/logo.jpg"
 import carritoSvg from "../../assets/carrito.svg"
-import style from "./HeaderContainer.module.css"
+import style from "./Header.module.css"
 
-const HeaderContainer = () => {
+const Header = () => {
   return (
     <div className={style["__containerHeader"]}>
         <img src={reactLogo} className={style["__logo"]} alt="React logo" />
@@ -20,4 +20,4 @@ const HeaderContainer = () => {
   )
 }
 
-export default HeaderContainer
+export default Header
