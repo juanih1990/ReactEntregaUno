@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import CartWidget from './component/CartWidget/CartWidget'
 import NavBar from './component/NavBar/NavBar'
 
