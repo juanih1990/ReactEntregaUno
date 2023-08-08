@@ -1,7 +1,10 @@
 import reactLogo from "../../assets/logo.jpg"
 import carritoSvg from "../../assets/carrito.svg"
-import style from "./Header.module.css"
+import style from "./CartWidget.module.css"
 
+/*Agregue un par de cositas mas, no me gustaba dejar el carro pelado. despues voy a separarlo por el componente header, ahora mantengo
+ CartWidget para la entrega*/
+ 
 const Header = () => {
   return (
     <div className={style["__containerHeader"]}>

@@ -1,16 +1,12 @@
 import { useState } from 'react'
-import Header from './component/Header/Header'
+import CartWidget from './component/CartWidget/CartWidget'
 import NavBar from './component/NavBar/NavBar'
 
-
-
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <Header/>
+        <CartWidget/>
         <NavBar/>
       </div>
   
